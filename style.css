@@ -1,0 +1,20 @@
+.foto{
+    border-radius: 5%;
+}
+body{
+    background-image: linear-gradient(60deg ,#013838,#08d3b1,#03262c );
+   
+}
+.button{  
+    color: rgb(131, 131, 133);
+    font-weight: 900;
+    text-decoration: none;
+    background-color: rebeccapurple ;
+    padding: 7px 30px;
+    margin:1px ;
+    text-align: right;
+} 
+.button:hover{
+    color: rgb(173, 173, 173); 
+    border-bottom: 1px solid  rgb(173, 173, 173);  
+}
