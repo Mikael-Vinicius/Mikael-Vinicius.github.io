@@ -1,20 +1,55 @@
 .foto{
     border-radius: 5%;
+    border: 1px#0eeebd;
 }
 body{
-    background-image: linear-gradient(60deg ,#013838,#08d3b1,#03262c );
+    background-image: linear-gradient(60deg ,#0eefff,#0eeebd,#03010100 );
    
 }
 .button{  
-    color: rgb(131, 131, 133);
+    color: rgb(255, 255, 255);
     font-weight: 900;
     text-decoration: none;
-    background-color: rebeccapurple ;
-    padding: 7px 30px;
-    margin:1px ;
+    background-color: rgb(13, 186, 255) ;
+    padding: 5px 35px;
+    margin: 1px;
     text-align: right;
 } 
 .button:hover{
-    color: rgb(173, 173, 173); 
+    color: rgba(9, 100, 136, 0.473); 
     border-bottom: 1px solid  rgb(173, 173, 173);  
+}
+#habilidades,#outrashabilidades {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(6, 174, 240);
+    padding: 1px 1px;
+    margin: 1px;
+    border: 1px solid;
+    display: inline;
+    
+}
+.text {
+    background-color: rgb(9, 134, 252);
+    width: 105px;
+    width: left;
+    border: 1px solid gray;
+    margin: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.presentation {
+    border: 2px solid gray;
+    background-color: rgb(6, 174, 240);
+    width: 230px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.name {
+    background-color: rgb(6, 174, 240);
+    border: 1px solid gray;
+    
+    width: 460px;
+}
+.paragrafo {
+    font-family: 'Courier New', Courier, monospace;
+    
 }
