@@ -1,0 +1,72 @@
+.foto{
+    border-radius: 5%;
+    border: 1px#0eeebd;
+    float: left;
+    height: 370px;
+    padding: 5px;
+    background-color: rebeccapurple;
+}
+body{
+    background-image: linear-gradient(60deg ,#0eefff,#0eeebd,#03010100 );
+   
+}
+.button{  
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-decoration: none;
+    background-color: rgb(13, 186, 255) ;
+    padding: 5px 3px;
+    margin: 5px;
+    text-align: center;
+    height: 20px;
+    display: inline-block
+} 
+.button:hover{
+    color: rgba(9, 100, 136, 0.473); 
+    border-bottom: 1px solid  rgb(173, 173, 173);  
+}
+#habilidades,#outrashabilidades {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(6, 174, 240);
+    padding: 5px 5px;
+    margin: 1px;
+    border: 1px solid;
+    display: inline-block;
+    
+    
+    
+}
+
+.presentation {
+    border: 2px solid gray;
+    background-color: rgb(6, 174, 240);
+    width: 905px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.name {
+    background-color: rgb(6, 174, 240);
+    border: 1px solid gray;
+    text-align: center;
+    width: 905px;
+}
+.paragrafo {
+    font-family: 'Courier New', Courier, monospace;
+    top: 250px;
+    left: 350px;
+    position: absolute;
+     
+}
+.image-container {
+    height: 500px;
+    position: relative;
+}
+ul li:nth-child(odd) {
+    margin: 3px;
+    width: 105px;
+    background-color: rgb(6, 174, 240);
+    border: 1px solid ;
+     
+}
